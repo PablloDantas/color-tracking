@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+}
+
+.main-title {
+  font-size: 2em;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-content > * {
+  margin-bottom: 1em;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.login-form {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.login-form * {
+  margin-bottom: 1.3em;
+}
+
+.login-form input {
+  border-radius: 10px;
+  outline: 2px solid #06d6a0;
+  border: 0;
+  background-color: #ffe2a0;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+}
+
+.login-form input:focus {
+  outline-offset: 5px;
+  background-color: #fff
+}
+
+.login-form button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  background: #fff;
+  border: 2px solid #ef476f;
+  border-radius: 5px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.login-form button:hover {
+  box-shadow: inset 0 0 0 4px #ef476f,
+  inset 0 0 0 8px #ffd166,
+  inset 0 0 0 12px #06d6a0,
+  inset 0 0 0 16px #118ab2;
+  background: #073b4c;
+  color: #fff;
+}
+
+.login-form button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
