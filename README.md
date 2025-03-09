@@ -11,4 +11,4 @@ Neste projeto, cada botão colorido possui seu próprio contador de cliques, per
 - **Data Binding e Manipulação de Eventos:** A comunicação entre a interface e a lógica de aplicação é feita de forma eficiente, proporcionando interatividade imediata.
 - **Design Responsivo:** A interface foi desenvolvida para se adaptar a diferentes dispositivos e tamanhos de tela, oferecendo uma experiência consistente em todas as plataformas.
 
-O **Color Tracking** é, portanto, uma demonstração prática de como o Angular 17 pode ser utilizado para criar aplicações web modernas, interativas e escaláveis, sendo uma peça central do meu portfólio.
+## Acesse o projeto: https://pabllodantas.github.io/color-tracking/
