@@ -1,59 +1,14 @@
-# PrimeiroDesafio
+# Color Tracking
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+O **Color Tracking** é um projeto interativo desenvolvido com Angular 17, que demonstra de forma prática o uso de tecnologias modernas e conceitos avançados do desenvolvimento web.
 
-## Development server
+Neste projeto, cada botão colorido possui seu próprio contador de cliques, permitindo que o usuário visualize, em tempo real, a quantidade de interações para cada cor. Essa funcionalidade não só enriquece a experiência do usuário, mas também serve como uma vitrine para as técnicas de manipulação de eventos e gerenciamento de estado.
 
-To start a local development server, run:
+**Principais conceitos aplicados:**
 
-```bash
-ng serve
-```
+- **Arquitetura Baseada em Componentes:** Cada cor é implementada como um componente independente, promovendo modularidade, reusabilidade e manutenção facilitada do código.
+- **Gerenciamento de Estado:** O projeto utiliza estratégias eficazes para atualizar e exibir dinamicamente os contadores de cliques, garantindo uma experiência fluida e responsiva.
+- **Data Binding e Manipulação de Eventos:** A comunicação entre a interface e a lógica de aplicação é feita de forma eficiente, proporcionando interatividade imediata.
+- **Design Responsivo:** A interface foi desenvolvida para se adaptar a diferentes dispositivos e tamanhos de tela, oferecendo uma experiência consistente em todas as plataformas.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+O **Color Tracking** é, portanto, uma demonstração prática de como o Angular 17 pode ser utilizado para criar aplicações web modernas, interativas e escaláveis, sendo uma peça central do meu portfólio.

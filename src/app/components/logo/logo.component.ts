@@ -47,15 +47,12 @@ export class LogoComponent implements OnInit, OnDestroy {
     this.rect5Color = availableColors[4];
   }
 
-  // Método para embaralhar um array (algoritmo Fisher-Yates)
   private shuffleArray(array: string[]): void {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-
-  // O método getRandomColor não é mais necessário, pois estamos usando o embaralhamento
 }
 
 
